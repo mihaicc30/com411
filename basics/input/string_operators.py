@@ -11,7 +11,7 @@ shield = int(input())
 i = 0
 o = 0
 p = 0
-
+print("\n")
 print("Health has been set.")
 print("\n")
 
@@ -19,3 +19,4 @@ print(f"Lives:  {'♥' * lives}")
 print(f"Energy: {'♦' * energy}")
 print(f"Shield: {'♦' * shield}")
 
+# remember to ask Piotr where the f and the {} come from
