@@ -14,7 +14,7 @@ p = 0
 print("\n")
 print("Health has been set.")
 print("\n")
-
+print(f"Lives:  {'\u2764' * lives}")
 print(f"Lives:  {'♥' * lives}")
 print(f"Energy: {'♦' * energy}")
 print(f"Shield: {'♦' * shield}")
