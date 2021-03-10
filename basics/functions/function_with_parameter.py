@@ -23,3 +23,14 @@ def escape_by():
     print("We cannot escape that way! The boulder is in the way!")
 
 identify()
+
+
+def climb_ladder():
+   r = int(input()) #steps remaining
+   c = int(input()) #steps crossed
+   if r > c:
+     print("Still some way to go!")
+   elif r < c:
+     print("We are almost there!")
+
+climb_ladder()
