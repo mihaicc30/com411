@@ -10,5 +10,3 @@ identify()
 
 
 
-def escape_by(plan):
-  
