@@ -1,18 +1,15 @@
-# ask user what to do
-print("What should I do (play/study)?")
-activity = input()
-    
-# decide if beep should play or study
-if (activity == "play"):
+# Ask user for book details
+print("What type of cover does this book have?")
+cover_type = input()
 
-    # ask user what to play with
-    print("What should I play with (toy/friend)?")
-    play_with = input()
-    
-    # decide if beep should play with toys or friend
-    if (play_with == "toy"):
-        print("I will play with my toys!")
+# Display appropriate message
+if (cover_type == "soft"):
+    print("Is the book perfect-bound?")
+    perfect_bound = input()
+
+    if (perfect_bound == "yes"):
+        print("Soft cover, perfect bound books are very popular!")
     else:
-        print("I will play with my friend!")
+        print("Soft covers with coils or stitches are great for short books") 
 else:
-    print("I will study")
+    print("Books with hard covers can be more expensive!")
