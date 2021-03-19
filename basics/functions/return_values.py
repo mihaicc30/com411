@@ -4,16 +4,12 @@ def sum_weights(w1, w2):
 
 def calc_avg_weight(w1, w2):
   return(w1 + w2) / 2
-
+  
 def run():
   print("What is the weight of Beep?")
   w1 = int(input())
-  
-
   print("What is the weight of Bop?")
   w2 = int(input())
- 
-
   print("What would you like to calculate (sum or average)?")
   z = str(input())
   x = str("sum")

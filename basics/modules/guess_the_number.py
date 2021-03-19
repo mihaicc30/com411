@@ -1,6 +1,3 @@
-
-
-
 def play_guess_the_number():
   import random as rnd
   print("-----------------------------")

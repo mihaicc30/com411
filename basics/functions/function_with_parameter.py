@@ -9,8 +9,6 @@ def identify():
     print("Its going to be fine.")
 
 
-
-
 def escape_by():
   plan = str(input())
   if plan == "jumping over":
