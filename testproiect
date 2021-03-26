@@ -1,0 +1,22 @@
+planets = [("earth", True, 21), ("mars", True, 55), ("pluto", True, 99)]
+
+
+def searchplanet(x):
+  i = 0
+  while True:
+    if x in planets[i]:
+      return i
+    else:
+      i += 1
+
+
+def list_entity(entity):
+  entity = searchplanet(entity)
+  return planets[entity]
+
+  
+print(list_entity("pluto"))
+
+
+
+#print(list_entity("earth", cols=[0,2] ))

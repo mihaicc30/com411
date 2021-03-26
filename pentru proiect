@@ -1,0 +1,12 @@
+def generate_stds():
+  print("Enter a name:" )
+  name=input()
+  print("Enter the grade: ")
+  grade = int(input())
+  return name, grade
+
+def all_stds():
+  all_students = []
+  while True:
+    all_students.append(generate_stds())
+    
