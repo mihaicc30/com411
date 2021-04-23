@@ -4,5 +4,5 @@ def observed():
 
 def run():
   print("Counting observations...")
-  print( observation() )
+  print( observed() )
 run()
