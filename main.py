@@ -1,12 +1,22 @@
 import matplotlib.pyplot as plt
 
-def display(x, y):
-  plt.plot(x, y)
-  plt.show()  
+def read_data(filename):
+  f = open(filename,"r")
+  content = f.readlines()
+  f.close()
+  return content
 
 def run():
-  x_values = [1,2,3,4,5]
-  y_values = [1, 4, 9, 16, 25]
-  display(x_values, y_values)
+  data = read_data("visual/subplots/temps.txt")
+  fig, axes = plt.subplots(1,2)
+  x = range(1,8,1)
+  y = data
+  
+  axes[0].plot(x,y)
+  axes[1].bar(x,y)
 
+
+  plt.show()
+
+  
 run()
